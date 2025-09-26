@@ -32,7 +32,7 @@ def read_mpu6050():
     return ax, ay, az, gz
 
 def calibrate_drift(duration=5.0):
-    print(f"\n📢 Don't move your robot {duration} calibration duration...")
+    print(f"\n Don't move your robot {duration} calibration duration...")
     samples = []
     start_time = time.time()
     gz_prev_local = 0.0
